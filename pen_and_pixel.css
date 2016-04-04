@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contact_us_intro {
+	border:1px solid black;
+	padding:5px;
+	margin:10px;
+}
+
+footer {
+	background-color:black;
+	color:white;
+	height:55px;
+	width:100%;
+	padding:5px;	
+}
+
+#welcome_message {
+	border:1px solid black;
+	padding:5px;
+	margin:10px;
+}
+
+#animated_landing_page {
+	padding:5px;
+	margin:10px;
+}
+
+#animated_landing_page {
+	background:#98bf21;
+	height:100px;
+	width:100px;
+	position:absolute;
+}
+
+#gallery div {
+	max-height:200px;
+}
+	
+#gallery div div {
+	margin:5px;
+	width:200px;
+	height:200px;
+}
+
+#gallery div div img {
+	width:100%;
+	height:100%;
+}
+
+.gallery-item {
+	width:100px;
+	height:100px;
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.filter_bar {
+	margin:10px;
+}
+
+.filter_bar .gallery-item {
+	margin:10px;
+	border:5px solid red;
+}
+
+@media only screen and (max-width :480px) {
+	#welcome_message {
+		font-size:10px;
+	}
+	
+	.text-center {
+		font-size:10px
+}
+
+@media queries (min-width :481px) and (max_width :768px) {
+	#welcome_message {
+		font-size:11px;
+	}
+	
+	.text-center {
+		font-size:11px;
+	}
+}
